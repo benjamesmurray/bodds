@@ -2,7 +2,7 @@
 
 
 echo "Here are our files";
-$path = "testdata";
+$path = "https://bodds.herokuapp.com/testdata";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
