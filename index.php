@@ -2,7 +2,7 @@
 
 
 echo "Here are our files";
-$path = ".";
+$path = "testdata";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
