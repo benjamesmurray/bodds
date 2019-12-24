@@ -2,7 +2,7 @@
 ?> 
 
 <?php
-echo "Here are our files";
+echo "";
 $path = "/app/testdata";
 $dh = opendir($path);
 $i=1;
