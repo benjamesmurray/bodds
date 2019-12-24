@@ -3,7 +3,7 @@
 
 <?php
 echo "";
-$path = "/app/testdata";
+$path = "/testdata";
 $dh = opendir($path);
 $i=1;
 while (($file = readdir($dh)) !== false) {
