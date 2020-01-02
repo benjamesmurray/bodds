@@ -2,7 +2,7 @@
 ?> 
 
 <?php
-echo "Test data set 1
+echo "<p>Test data set 1</p>
 ";
 $path = "/app/testdata/group_1";
 $dh = opendir($path);
@@ -17,7 +17,7 @@ closedir($dh);
 ?> 
 
 <?php
-echo "Test data set 2
+echo "<p>Test data set 2</p>
 ";
 $path = "/app/testdata/group_2";
 $dh = opendir($path);
@@ -32,7 +32,7 @@ closedir($dh);
 ?> 
 
 <?php
-echo "Test data set 3
+echo "<p>Test data set 3</p>
 ";
 $path = "/app/testdata/group_3";
 $dh = opendir($path);
