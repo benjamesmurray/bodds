@@ -413,7 +413,7 @@
 <Service>
 <ServiceCode>dlamlm</ServiceCode><Lines><Line id="dlamlm"><LineName>123</LineName></Line></Lines>
 <OperatingPeriod><StartDate>2020-01-07</StartDate>
- <EndDate>2020-05-09</EndDate>
+ <EndDate>2020-05-13</EndDate>
  </OperatingPeriod>
 
 <RegisteredOperatorRef>OId_SCCM</RegisteredOperatorRef>
