@@ -46,3 +46,34 @@ while (($file = readdir($dh)) !== false) {
 closedir($dh);
 ?> 
 
+
+<?php
+echo "<p>NeTEx</p>
+";
+$path = "/app/testdata/fares";
+$dh = opendir($path);
+$i=1;
+while (($file = readdir($dh)) !== false) {
+    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
+        echo "<a href='/testdata//group_3/$file'>$file</a><br /><br />";
+        $i++;
+    }
+}
+closedir($dh);
+?> 
+
+
+<?php
+echo "<p>Siri</p>
+";
+$path = "/app/testdata/siri";
+$dh = opendir($path);
+$i=1;
+while (($file = readdir($dh)) !== false) {
+    if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
+        echo "<a href='/testdata//group_3/$file'>$file</a><br /><br />";
+        $i++;
+    }
+}
+closedir($dh);
+?> 
